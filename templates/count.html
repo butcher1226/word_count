@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>你好</title>
+</head>
+<body>
+<h1>统计结果，总字数为{{total_count}}字</h1>
+
+<h2>你的文本</h2>
+{{text}}
+
+<h3>
+    字数频率
+    {% for word in word_dict %}
+    {{word}}
+    {% endfor %}
+</h3>
+
+</body>
+</html>
